@@ -12,6 +12,6 @@ file_path = os.path.join(file_folder_path, file_name)
 logging.basicConfig(
     filename=file_path,
     datefmt="%Y-%m-%d %H:%M:%S",
-    format="[ %(asctime)s ] %(lineno)s - %(levelname)s - %(message)s",
+    format="[ %(asctime)s ] %(lineno)s - %(levelname)s - %(message)s - %(filename)s",
     level=logging.INFO
 )
